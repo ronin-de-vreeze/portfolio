@@ -1,180 +1,49 @@
-<html>
+<doctype html>
+    <html lang="en">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
 
-<body>
-    <div id="personal-info">
-        <img id="profile-picture" src="images/ProfilePicture.JPG">
-        <header id="name">Ronin de Vreeze</header>
-        <p style="padding-right: 30%; text-align: right;">
-            <b>Hi!</b> I'm Ronin, a 20 year old Creative Technology student passionate about a lot of different things.
-            I love combining different subgenres of art, video, music and techonlogy to create unique projects.
-            I invite you to take a look at my work down below.
-        </p>
-        <p style="padding-left: 30%; text-align: left;">
-            <b>More about me,</b> I currently live in Amsterdam and work parttime as a line cook at a old atmospheric
-            cafe/restaurant in
-            the city center. Not only at work, but also in my free time I like to cook for myself and search for new
-            music genres during it.
-            When I have the time I also like to rock climb once in a while with friends.
-        </p>
-        <p style="padding-right: 30%; text-align: right;">
-            <b>My main interests</b> are related to the combination of physical technology and digital technology.
-            Projects that combine the real world (retro tech / smart devices / displays) with digial
-            software (audiovidual software / interfaces / websites) tend to pique my interests. Enjoy!
-        </p>
-    </div>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <div class="menubar">
-        <span onclick="setTab(0);">
-            <a>MY WORK</a>
-        </span>
-        <span onclick="setTab(1);">
-            <a>INSPIRATION</a>
-        </span>
-    </div>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-    <div class="grid my-work">
-        <a href="projects/circuitbending.html" class="grid-item">
-            <img src="https://i.pinimg.com/736x/30/2b/9d/302b9d6aec0125918478827d8ebef875.jpg"></img>
-            <div></div>
-            <p class="grid-item-title">Circuit bending</p>
-            <p class="grid-item-info">Recenly I have started to collect old technology, by hacking these devices you can create brand new inventaions!</p>
-        </a>
-        <a href="projects/programming.html" class="grid-item">
-            <img src="https://i.guim.co.uk/img/media/d059b58efe8ce50d15639f76448becdeec69bc9b/0_184_7200_4320/master/7200.jpg?width=1200&quality=85&auto=format&fit=max&s=d7659f8cde3870d1724610565247623e"></img>
-            <div></div>
-            <div></div>
-            <p class="grid-item-title">Programming</p>
-            <p class="grid-item-info">Some old programming projects</p>
-        </a>
-        <a href="projects/retroTechnology.html" class="grid-item">
-            <img src="https://images.stockcake.com/public/f/1/f/f1f96994-cb53-4d90-886f-eac7c7696e5b_large/vintage-tech-collection-stockcake.jpg"></img>
-            <div></div>
-            <div></div>
-            <p class="grid-item-title">Retro Tech</p>
-            <p class="grid-item-info">Old reporposed technology and more</p>
-        </a>
-        <a href="projects/MusicalInterface" class="grid-item">
-            <img src="https://modin.yuri.at/tangibles/cover.jpg"></img>
-            <div></div>
-            <div></div>
-            <p class="grid-item-title">Musical Interface Tech</p>
-            <p class="grid-item-info">A Unconventional musical interface designed during the third module Creative Technology</p>
-        </a>
-        
-        <a href="projects/AudioVisual" class="grid-item">
-            <img src="images/WhatsApp Image 2025-04-24 at 22.35.14.jpeg"></img>
-            <div></div>
-            <div></div>
-            <p class="grid-item-title">AudioVisual Experimentation</p>
-            <p class="grid-item-info">Fun AudioVisal projects I have worked on recently</p>
-        </a>
-        <a href="projects/setup.html" class="grid-item">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqxrZIJtZrqcoQDwm9IHAnxPoS-XIE39T_LA&s"></img>
-            <div></div>
-            <div></div>
-            <p class="grid-item-title">Home setup</p>
-            <p class="grid-item-info">An auditory makeover project for my home desk.</p>
-        </a>
-
-        <a href="projects/minitel.html" class="grid-item">
-            <img src="https://blog.chapelierfou.org/images/minitel1.jpg"></img>
-            <div></div>
-            <div></div>
-            <p class="grid-item-title">Minitel ToDo-list</p>
-            <p class="grid-item-info">How I hacked a 30 year old Alcatel to my needs</p>
-        </a>
-
-        <a href="projects/spotifyapp.html" class="grid-item">
-            <img src="https://play-lh.googleusercontent.com/vjZfxdqIuOdr2jWf2GGoJihhLymki0htpj2zMOXzc018OItIM8PPdokFUEFgzbu6Sg=w526-h296-rw"></img>
-            <div></div>
-            <div></div>
-            <p class="grid-item-title">Quickify</p>
-            <p class="grid-item-info">Making a better version of Spotify using the public API</p>
-        </a>
-    </div>
-
-    <div class="grid inspiration">
-        <a target="_blank" href="https://www.reddit.com/r/CircuitBending/comments/gts37l/enjoy_this_vhs_fever_dream/" class="grid-item">
-            <img
-                src="https://preview.redd.it/0xvea9dm00r91.jpg?width=1440&format=pjpg&auto=webp&s=673593604d034f0af7ce0eb86a2ae47dd8303427"></img>
-            <div></div>
-            <p class="grid-item-title">Circuit bend camera</p>
-            <p class="grid-item-info">Circuit bending reddit post forum I often use for inspiration.</p>
-        </a>
-        <a target="_blank" href="https://www.reddit.com/r/CircuitBending/comments/kbe4mw/i_love_to_buildhackmodbend_crt_displays/" class="grid-item">
-            <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxYRBcIgdl1fou2OpFF1B2SdxmraG3doJADA&s"></img>
-            <div></div>
-            <p class="grid-item-title">Circuit bend tv</p>
-            <p class="grid-item-info">Circuit bending reddit post forum I often use for inspiration.</p>
-        </a>
-        <a target="_blank" href="https://www.youtube.com/@BenEater" class="grid-item">
-            <img
-                src="https://i.ytimg.com/vi/HyznrdDSSGM/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLDTsqKXitUYC_fbzV_9_UVbdoU9Mg"></img>
-            <div></div>
-            <p class="grid-item-title">Ben Eater</p>
-            <p class="grid-item-info">YouTuber who is making his own computer with components.</p>
-        </a>
-        <a target="_blank" href="https://www.youtube.com/watch?v=m51vK1nSxGU&ab_channel=Overculture" class="grid-item">
-            <img
-                src="https://payhip.com/cdn-cgi/image/format=auto/https://pe56d.s3.amazonaws.com/o_1hqf8uccv1qom67sth81bum1doi10.jpg"></img>
-            <div></div>
-            <p class="grid-item-title">Analog feedback</p>
-            <p class="grid-item-info">Video with an anaolg TV feedback demonstration</p>
-        </a>
-
-        <a target="_blank" href="https://www.youtube.com/watch?v=Pp9MwZkHiMQ" class="grid-item">
-            <img
-                src="https://media.istockphoto.com/id/482600191/nl/foto/security-camera-and-urban-video.jpg?s=612x612&w=0&k=20&c=JVAEX7cS3ZwWcoQjPRCA8FW6CUYb2YfN4ZooyrzPiBA="></img>
-            <div></div>
-            <p class="grid-item-title">Ben Jordan</p>
-            <p class="grid-item-info">YouTube channel I have been following lately, this video is about recent security threads involving camers, and how to hack them</p>
-        </a>
-    </div>
-
-    <footer id="footer">
-        <p><b>Contact</b></p>
-        <p><i>University: </i>r.p.devreeze@student.utwente.nl</p>
-        <p><i>Personal: </i>ronindevreeze@gmail.nl</p>
-        <p><i>Instagram: </i> @ronin_de_vreeze</p>
-        <p><i>YouTube: </i> youtube.com/@ronindevreeze6947</p>
-    </footer>
-
-    <script>
-        const tabPortfolio = document.getElementsByClassName("my-work")[0];
-        const tabInspiration = document.getElementsByClassName("inspiration")[0];
-        const menubar = document.getElementsByClassName("menubar")[0];
-
-        function setTab(index) {
-            if (index == 0) {
-                tabPortfolio.style.display = "grid";
-                tabInspiration.style.display = "none";
-                menubar.children[0].classList.toggle('selected', 1);
-                menubar.children[1].classList.toggle('selected', 0);
-
-            } else {
-                tabPortfolio.style.display = "none";
-                tabInspiration.style.display = "grid";
-                menubar.children[0].classList.toggle('selected', 0);
-                menubar.children[1].classList.toggle('selected', 1);
+            * {
+                font-family: "Outfit", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
             }
-        }
+        </style>
+    </head>
 
-        function determineStickyState() {
-            const currentTop = menubar.getBoundingClientRect().top;
-            menubar.classList.toggle('sticking', currentTop == 0);
-        }
+    <body>
+        <div class="container mt-5">
+            <div class="row row-cols-lg-3 row-cols-1 row-cols-md-2 g-3">
+                <a href="#" class="col text-reset text-decoration-none">
+                    <span style="font-weight: 700;">MINITEL</span>
+                    <span>\ Hacking retro scrap</span>
+                    <div class="mt-2 ratio ratio-16x9"> 
+                        <img style="object-fit: cover;" class="rounded" src="https://daily.jstor.org/wp-content/uploads/2017/05/minitel_1050x700.jpg">
+                    </div>
+                    <div class="p-2 text-muted">
+                        <span style="font-weight: 400;">Client</span>
+                        <span style="font-weight: 200;">John Doe</span>
+                        <span style="font-weight: 400;">Date</span>
+                        <span style="font-weight: 200;">2025</span>
+                        <span style="font-weight: 400;">Tags</span>
+                        <span style="font-weight: 200;">[Retro] [Hacking] [Scrap]</span> 
+                    </div>
+                </a>    
+            </div>
+        </div>
 
-        window.addEventListener('scroll', determineStickyState);
-        setTab(0);
-    </script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </body>
 
-</html>
+    </html>
