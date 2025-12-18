@@ -2,10 +2,10 @@ body,
 html {
     --transition-speed: 0.4s;
 
-    --background: rgb(225, 54, 54);
+    --background: rgb(243, 221, 221);
     --text-main: rgb(255, 255, 255);
     --text-highlight: rgb(255, 255, 255);
-    --background-dark: rgb(173, 58, 58);
+    --background-dark: rgb(251, 251, 251);
 
     margin: 0px;
     padding: 0px;
