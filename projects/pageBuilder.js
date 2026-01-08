@@ -1,61 +1,48 @@
 const data = {
-    "spotify": {
-        title: "Rotulo",
-        subtitle: "Building a custom Spotify interface to use tags instead of playlists",
-        header_image: "https://silentnoise.ph/wp-content/uploads/2023/01/5-32.jpg",
-        info: [
+    "minitel": {
+        title: "Minitel",
+        image: "../images/fable1.jpeg",
+        fields: [
             {
                 title: "Year",
-                value: "2025"
-            },
-            {
-                title: "Client",
-                value: "Personal"
-            },
-            {
-                title: "Tags",
-                value: "Spotify, API, Web app"
+                content: "2025"
+            }, {
+                title: "Year",
+                content: "2025"
+            }, {
+                title: "Year",
+                content: "2025"
             }
         ],
         sections: [
             {
-                title: "Introduction",
-                content: `Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit.<br><br><br> Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.`
-            },
-            {
-                title: "The implementation",
-                content: `Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat`
-            },
-            {
-                title: "More",
-                content: `Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae`
+                title: "Intro",
+                content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus adipisci molestias
+                voluptates. Quo voluptatum id sequi iure, qui delectus ducimus maxime eius rem adipisci
+                quisquam saepe, laudantium doloremque officiis pariatur? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Libero aperiam autem impedit porro nulla eveniet, possimus,
+                quos sapiente vero obcaecati, ex quidem neque! Blanditiis, fuga accusamus hic repellendus ut
+                corrupti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem rem ex quam? Odio
+                excepturi sed debitis vero, nam itaque culpa illo dolor, distinctio iusto earum iure
+                similique, vel soluta ratione!`,
+                images: [
+                    "../images/fable1.jpeg",
+                    "../images/fable1.jpeg",
+                    "../images/fable1.jpeg",
+                    "../images/fable1.jpeg",
+                    "../images/fable1.jpeg",
+                    "../images/fable1.jpeg",
+                    "../images/fable1.jpeg"
+                ]
+            }, {
+                title: "Int2ro",
+                content: "lo2rem",
+                images: [
+                    "../images/fable2.jpeg",
+                    "../images/fable1.jpeg",
+                    "../images/fable3.jpeg"
+                ]
             }
-        ],
-        images: [
-            "https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=",
-            "https://media.istockphoto.com/id/1354066936/photo/teito-in-veigas-village-somiedo-natural-park-and-biosphere-reserve-asturias-spain.jpg?s=612x612&w=0&k=20&c=CZGKx6vfYbdjNBg89HNFbe4THg5qqMf3NIzZCuHKFv8="
         ]
     }
 }
@@ -69,30 +56,39 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Set title
     document.getElementById("title").innerHTML = `${projectData.title}`;
-    document.getElementById("subtitle").innerHTML = `${projectData.subtitle}`;
-    document.getElementById("header-image").src = `${projectData.header_image}`;
+    document.getElementById("header-image").src = `${projectData.image}`;
+
+    // Create all the fields
+    for (let i = 0; i < projectData.fields.length; i++) {
+        const newElement = document.createElement("div");
+        // newElement.classList = "c";
+        newElement.innerHTML = `
+            <p>${projectData.fields[i].title}</p>
+            <p style="font-weight: 100;">${projectData.fields[i].content}</p>
+        `
+
+        document.getElementById("infobox").appendChild(newElement);
+    }
 
     // Create all text sections
     for (let i = 0; i < projectData.sections.length; i++) {
-        const newSection = document.createElement("div");
-        newSection.classList = "row";
-        newSection.innerHTML = `
-            <div class="row sticky-top py-4" style="background-color: white; z-index: 999;">
-                <div class="col-auto">
-                    ${projectData.sections[i].title}
-                </div>
-                <div class="col">
-                    <hr>
-                </div>
+        document.getElementById("content").innerHTML +=  `
+            <div class="w-100 mb-2 py-2 mt-5"
+                style="border-bottom: 1px solid var(--primary-muted); color: var(--primary-muted)">
+                ${projectData.sections[i].title}
             </div>
 
-            <!-- Text column -->
-            <div class="col-12" id="sections" style="margin-bottom: 200px;">
-                ${projectData.sections[i].content}
-            </div>
-        `
+            <div>${projectData.sections[i].content}</div>
 
-        document.getElementById("text-sections").appendChild(newSection);
+                <!-- Images -->
+                <div class="images d-flex flex-nowrap overflow-x-auto py-5" style="height: 400px;">
+                    ${projectData.sections[i].images.map(el => `
+                        <div class="me-4 h-100" style="aspect-ratio: 1 / 1; flex: 0 0 auto;">
+                            <img class="w-100 h-100 object-fit-cover" src="` + el + `">
+                        </div>
+                    `).join("")}
+                </div>
+        `;
     }
 
     // Create all the images
