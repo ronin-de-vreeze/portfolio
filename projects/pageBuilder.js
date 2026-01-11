@@ -50,6 +50,159 @@ const data = {
                 videos: []
             }
         ]
+    },
+
+    "av": {
+        title: "Audio-Visual",
+        image: "../images/av6.jpeg",
+        fields: [
+            {
+                title: "Year",
+                content: "2025"
+            }, {
+                title: "Type",
+                content: "Personal"
+            }, {
+                title: "Tags",
+                content: "Audio, Visual, TouchDesigner, Projection, Light, Art"
+            }
+        ],
+        sections: [
+            {
+                title: "Processing",
+                content: `My humble journey as an audio-visual artist stared when I was motivated to get back into the Processing programming language. The Processing framework is a javascript framework that optimizes for fast and simple development of visualizations. It has many different simple drawing functions allowing you to quickly get something up and running.
+                
+                <br><br>
+                
+                I expirmented with some pixel based rules and what visualizations they created: (The first video is merely inspiration, i do not own the stack of TV, unfortunately...)`,
+                images: [],
+                videos: [
+                    "../images/av8.mp4",
+                    "../images/av9.mp4",
+                    "../images/av10.mp4",
+                    "../images/av12.mp4"
+                ]
+            }, {
+                title: "TouchDesigner",
+                content: `After a while I found TouchDesigner`,
+                images: [],
+                videos: [
+                    "../images/av1.mp4",
+                    "../images/av2.mp4"
+                ]
+            }, {
+                title: "Projector",
+                content: `TouchDesigner is specifically designed `,
+                images: [
+                    "../images/av3.jpg",
+                    "../images/av6.jpeg"
+                ],
+                videos: [
+                    "../images/av7.mp4",
+                    "../images/av11.mp4"
+                ]
+            }
+        ]
+    }, 
+
+    "piano": {
+        title: "Audio-Visual",
+        image: "../images/av6.jpeg",
+        fields: [
+            {
+                title: "Year",
+                content: "2025"
+            }, {
+                title: "Type",
+                content: "Personal"
+            }, {
+                title: "Tags",
+                content: "Audio, Visual, TouchDesigner, Projection, Light, Art"
+            }
+        ],
+        sections: [
+            {
+                title: "TouchDesigner",
+                content: ``,
+                images: [],
+                videos: []
+            }
+        ]
+    }, 
+
+    "fable": {
+        title: "Audio-Visual",
+        image: "../images/av6.jpeg",
+        fields: [
+            {
+                title: "Year",
+                content: "2025"
+            }, {
+                title: "Type",
+                content: "Personal"
+            }, {
+                title: "Tags",
+                content: "Audio, Visual, TouchDesigner, Projection, Light, Art"
+            }
+        ],
+        sections: [
+            {
+                title: "TouchDesigner",
+                content: ``,
+                images: [],
+                videos: []
+            }
+        ]
+    },
+
+    "spotify": {
+        title: "Audio-Visual",
+        image: "../images/av6.jpeg",
+        fields: [
+            {
+                title: "Year",
+                content: "2025"
+            }, {
+                title: "Type",
+                content: "Personal"
+            }, {
+                title: "Tags",
+                content: "Audio, Visual, TouchDesigner, Projection, Light, Art"
+            }
+        ],
+        sections: [
+            {
+                title: "TouchDesigner",
+                content: ``,
+                images: [],
+                videos: []
+            }
+        ]
+    },
+
+    "djcontroller": {
+        title: "Audio-Visual",
+        image: "../images/av6.jpeg",
+        fields: [
+            {
+                title: "Year",
+                content: "2025"
+            }, {
+                title: "Type",
+                content: "Personal"
+            }, {
+                title: "Tags",
+                content: "Audio, Visual, TouchDesigner, Projection, Light, Art"
+            }
+        ],
+        sections: [
+            {
+                title: "TouchDesigner",
+                content: ``,
+                images: [],
+                videos: []
+            }
+        ]
     }
 }
 
